@@ -14,18 +14,18 @@ html {
 }
 
 img {
-  width; 100%;
+  width: 100%;
 }
 
 main {
-list-style-type: none;
+  list-style-type: none;
 
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas:
-    "banner banner banner"
-    "col1 col2 col3";
-    gap: .75em;
+  "banner banner banner"
+  "col1 col2 col3";
+  gap: .75em;
 }
 
 .col1 {
@@ -63,7 +63,7 @@ dd {
 }
 
 figcaption {
-  margin: .75rem 1 1rem 1rem;
+  margin: .75rem 1rem 1rem;
 }
 
 .banner {
@@ -72,7 +72,6 @@ figcaption {
   text-align: left;
   color: white;
   margin-bottom: -.25rem;
-
 }
 
 .bottom-left {
