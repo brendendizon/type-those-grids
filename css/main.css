@@ -21,15 +21,17 @@ main {
   list-style-type: none;
 
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-  "banner banner banner"
-  "col1 col2 col3";
+    "banner banner banner"
+    "col1 col2 col3";
   gap: .75em;
 }
 
 .col1 {
   grid-area: col1;
+  padding: 0;
+  margin: -.15rem 0 0;
 }
 
 .col2 {
